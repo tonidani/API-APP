@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title><%= title %></title>
+    <%- include('partials/head.html') %>
+</head>
+
+<body>
+
+    <%- include('partials/navigation.html') %>
+
+    <div class="container register-form">
+
+
+        <form action="register/submit" method="POST">
+
+            <label>Name</label>
+            <input class="name" name="name" type="text" required />
+
+            <label>Surname</label>
+            <input class="surname" name="surname" type="text" required />
+
+            <label>Date of Birth</label>
+            <input class="date" name="date" type="date" required />
+
+            <label>Login</label>
+            <input class="login" name="login" type="text" required />
+
+            <label>Password</label>
+            <input class="password" name="password" type="password" required />
+            <input type="submit" onclick="return alert('1 row added')" value="addtodb" />
+            <input type="reset" value="reset" />
+
+        </form>
+
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+nav {
+
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+body {
+    background: #0099F7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+.register-form {
+    
+    margin-top:2%;
+    display: block;
+    background-color: #ccc;
+
+
+}
+
+.register-form > form > input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.register-form > form > label {
+    color:black;
+}
+
+.register-form > form > input[type=submit], .register-form > form >  input[type=reset] {
+    width:25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}

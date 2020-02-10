@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title><%= title %></title>
+    <%- include ('partials/head.html') %>
+</head>
+
+<body>
+    <%- include ('partials/navigation.html') %>
+
+    <div class="container register-form">
+        <h1>Login </h1>
+        <form action="auth" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit">
+        </form>
+
+
+</body>
